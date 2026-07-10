@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+  --color-accent: #ff4e00;
+  --color-dark-bg: #050505;
+  --color-panel-bg: rgba(18, 18, 18, 0.85);
+  --color-muted-text: #888888;
+}
+
+/* Custom CSS utility classes matching the Sophisticated Dark spec */
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sophisticated-btn {
+  background: rgba(18, 18, 18, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.sophisticated-btn:hover {
+  background: #ff4e00;
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 0 30px rgba(255, 78, 0, 0.4);
+}
+
+.sophisticated-key-hint {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  background: #333333;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 4px;
+  font-weight: bold;
+}

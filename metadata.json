@@ -1,0 +1,6 @@
+{
+  "name": "8-Way Sprite RPG",
+  "description": "An action game in Three.js featuring 2.5D billboard sprites, 8-directional movement, skills, items, enemy waves, and a boss fight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
